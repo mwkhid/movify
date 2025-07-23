@@ -65,7 +65,7 @@ export default function Edit({ auth, movie }) {
                     placeholder="Enter movie video url"
                     isError={errors.video_url}
                 />
-                <Label forInput="thumbnail" value="Thumbail" className="mt-4" />
+                <Label forInput="thumbnail" value="Thumbnail" className="mt-4" />
                 <img src={`/storage/${movie.thumbnail}`} alt="" className="w-40" />
                 <Input
                     type="file"

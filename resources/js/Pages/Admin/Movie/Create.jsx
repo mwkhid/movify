@@ -60,7 +60,7 @@ export default function Create({ auth }) {
                     placeholder="Enter movie video url"
                     isError={errors.video_url}
                 />
-                <Label forInput="thumbnail" value="Thumbail" className="mt-4" />
+                <Label forInput="thumbnail" value="Thumbnail" className="mt-4" />
                 <Input
                     type="file"
                     name="thumbnail"
